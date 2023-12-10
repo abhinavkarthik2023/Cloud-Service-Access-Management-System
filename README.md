@@ -27,8 +27,6 @@ Piyush Jagtap (Cwid - )
 
 # Getting Started
 
-# Cloud Service Management
-
 This Django application is designed to accomplish cloud service management for admin and users.
 
 ## Prerequisites
