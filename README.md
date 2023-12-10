@@ -27,41 +27,66 @@ Piyush Jagtap (Cwid - )
 
 # Getting Started
 
-Cloud Service Management
+# Cloud Service Management
 
 This Django application is designed to accomplish cloud service management for admin and users.
 
-Prerequisites
+## Prerequisites
 
-Python version 3.10 or higher
-Virtual environment (optional but recommended)
-Installation
+- Python version 3.10 or higher
+- Virtual environment (optional but recommended)
 
-Unzip the Project:
+## Installation
 
-Unzip the downloaded project to your desired location.
+1. **Unzip the Project:**
 
-Navigate to the Project Directory:
+   Unzip the downloaded project to your desired location.
 
-cd <Project directory>
-Create a Virtual Environment (Optional but Recommended):
+2. **Navigate to the Project Directory:**
 
-python -m venv venv
-Activate the Virtual Environment:
+   ```bash
+   cd <Project directory>
+   ```
 
-For Unix/Linux:
+3. **Create a Virtual Environment (Optional but Recommended):**
 
-source venv/bin/activate
-For Windows:
+   ```bash
+   python -m venv venv
+   ```
 
-.\venv\Scripts\activate
-Install Dependencies:
+4. **Activate the Virtual Environment:**
 
-pip install -r requirements.txt
-Apply Database Migrations:
+   - For Unix/Linux:
 
-python manage.py migrate
-Run the Development Server:
+     ```bash
+     source venv/bin/activate
+     ```
 
-python manage.py runserver
-Visit http://localhost:8000/ in Your Web Browser to Access the Application.
+   - For Windows:
+
+     ```bash
+     .\venv\Scripts\activate
+     ```
+
+5. **Install Dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+6. **Apply Database Migrations:**
+
+   ```bash
+   python manage.py migrate
+   ```
+
+7. **Run the Development Server:**
+
+   ```bash
+   python manage.py runserver
+   ```
+
+8. **Visit [http://localhost:8000/](http://localhost:8000/) in Your Web Browser to Access the Application.**
+
+
+
