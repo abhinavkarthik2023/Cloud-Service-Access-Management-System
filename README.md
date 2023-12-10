@@ -27,7 +27,9 @@ This project involves developing a backend system for managing access to cloud s
 # Objectives
 
 ● To develop a backend system that dynamically manages access to cloud services based on user subscriptions.
+
 ● To implement a role-based access control (RBAC) system where the admin can modify user permissions and subscription plans.
+
 ● To simulate cloud service usage and enforce limits based on subscription plans.
 
 
