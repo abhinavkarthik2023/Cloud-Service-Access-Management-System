@@ -27,4 +27,41 @@ Piyush Jagtap (Cwid - )
 
 # Getting Started
 
+Cloud Service Management
 
+This Django application is designed to accomplish cloud service management for admin and users.
+
+Prerequisites
+
+Python version 3.10 or higher
+Virtual environment (optional but recommended)
+Installation
+
+Unzip the Project:
+
+Unzip the downloaded project to your desired location.
+
+Navigate to the Project Directory:
+
+cd <Project directory>
+Create a Virtual Environment (Optional but Recommended):
+
+python -m venv venv
+Activate the Virtual Environment:
+
+For Unix/Linux:
+
+source venv/bin/activate
+For Windows:
+
+.\venv\Scripts\activate
+Install Dependencies:
+
+pip install -r requirements.txt
+Apply Database Migrations:
+
+python manage.py migrate
+Run the Development Server:
+
+python manage.py runserver
+Visit http://localhost:8000/ in Your Web Browser to Access the Application.
