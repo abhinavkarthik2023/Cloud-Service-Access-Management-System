@@ -22,6 +22,13 @@ Piyush Jagtap (Cwid - )
 
 # Project Description
 
+This project involves developing a backend system for managing access to cloud services based on user subscriptions. The primary users of the system are Customers who access cloud services and Admins who manage subscription plans and permissions. The system will regulate access to various cloud APIs based on the subscription plan purchased by the customer. If a customer exceeds the maximum limit of a service as defined in their plan, access to that specific service will be temporarily restricted.
+
+# Objectives
+
+● To develop a backend system that dynamically manages access to cloud services based on user subscriptions.
+● To implement a role-based access control (RBAC) system where the admin can modify user permissions and subscription plans.
+● To simulate cloud service usage and enforce limits based on subscription plans.
 
 
 
